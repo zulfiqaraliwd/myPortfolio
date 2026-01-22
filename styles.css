@@ -5,10 +5,11 @@ padding: 0px;
 }
 
 #name{
-    margin-right:150px;
+    margin-right:500px;
+    margin-top: 0px;
     color: #0D5EBA;
-    /* font-weight: bold; */
-    margin-bottom: 10px;
+    font-weight: bold;
+ 
 }
 
 #navbar{
@@ -37,16 +38,41 @@ a{
 
 .carts-containers{
   display: flex;
-  border: 2px solid black;
-  gap: 10px;
+  
   width: 80%;
-  margin-left: 100px;
+  margin-left: 50px;
+  justify-content: space-around;
+  margin: 50px;
+  
 
 }
 .cart{
-    height: 100%;
-    width: 100%;
+   
+    width: 120px;
+    height: 120px;
+   border-radius: 10px;
+}
+img{
+  border-radius: 10px;
+}
 
- 
+h4{
+    margin-left: 30px;
+}
+
+h2{
+    margin-left: 50px;
+    margin: 50px;
+}
+
+#about{
+    border: 2px solid black;
+    display: flex;
+}
+
+.about1{
+ border: 2px solid yellow;
+ width: 800px;
+
 }
 
