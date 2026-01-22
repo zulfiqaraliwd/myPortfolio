@@ -30,3 +30,23 @@ ul {
 a{
     text-decoration: none;
 }
+
+#anchorsList{
+    padding: 7px;
+}
+
+.carts-containers{
+  display: flex;
+  border: 2px solid black;
+  gap: 10px;
+  width: 80%;
+  margin-left: 100px;
+
+}
+.cart{
+    height: 100%;
+    width: 100%;
+
+ 
+}
+
