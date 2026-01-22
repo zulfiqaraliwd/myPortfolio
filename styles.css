@@ -18,6 +18,7 @@ padding: 0px;
    flex-wrap: wrap;
    justify-content: space-around;
    text-decoration: none;
+   margin: 10px;
 
 }
 ul {
@@ -61,18 +62,82 @@ h4{
 }
 
 h2{
-    margin-left: 50px;
-    margin: 50px;
+   padding-left: 48px;
+   margin: 50px;
+    margin: px;
+    color: #0D5EBA;
+    font-weight: 100px;
+    
+}
+#title{
+    color: white;
+    padding-top: 100px;
 }
 
 #about{
-    border: 2px solid black;
+   
     display: flex;
+    background: #0D5EBA;
 }
 
 .about1{
- border: 2px solid yellow;
+ 
  width: 800px;
+text-align: center;
+padding-top: 100px;
+}
 
+.about2{
+
+ width: 800px;
+text-align: center;
+
+}
+
+.no-radius{
+  border-radius: 0 !important; 
+  background: none; 
+  
+}
+p{
+    color: white;
+}
+
+button{
+    margin-right: 300px;
+}
+#review-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.review{
+    border: 2px solid rgb(241, 239, 239);
+    width: 250px;
+    height: 100px;
+    padding: 50px;
+}
+
+#service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.serviseCart{
+    border: 2px solid rgb(241, 239, 239);
+   
+}
+.developemnt{
+    margin-top: 0px;
+    margin-left: auto;
+}
+
+
+
+/* Footer Container */
+footer {
+  background: #0D5EBA; 
+  padding: 40px;
+  color: white;
 }
 
