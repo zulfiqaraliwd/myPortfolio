@@ -137,7 +137,23 @@ button{
 /* Footer Container */
 footer {
   background: #0D5EBA; 
-  padding: 40px;
+  
   color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+  
+}
+
+
+.column{
+    font-size: x-large;
+}
+
+#lastpara{
+    padding: 15px;
+    background: #4d4848;
+    text-align: center;
 }
 
