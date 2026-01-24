@@ -1,8 +1,15 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
 *{
 margin: 0px;
 padding: 0px;
 
 }
+
 
 #name{
     margin-right:500px;
@@ -10,6 +17,9 @@ padding: 0px;
     color: #0D5EBA;
     font-weight: bold;
  
+}
+.animate__rubberBand{
+   color: #0D5EBA;  
 }
 
 #navbar{
@@ -157,3 +167,22 @@ footer {
     text-align: center;
 }
 
+.fa-whatsapp{
+    color: #acdc30;
+}
+
+.serviseCart{
+transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.serviseCart:hover{
+  transform: scale(1.05) translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.cart{
+transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.cart:hover{
+  transform: scale(1.3) translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
