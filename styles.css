@@ -170,6 +170,18 @@ footer {
 .fa-whatsapp{
     color: #acdc30;
 }
+.fa-github{
+    color: black;
+}
+.fa-square-instagram{
+    color: #E1306C;
+}
+.fa-square-x-twitter{
+    color: black;
+}
+.fa-location-dot{
+ color: #1DA1F2;
+ }
 
 .serviseCart{
 transition: transform 0.3s ease , box-shadow 0.3s ease;
